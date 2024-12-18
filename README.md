@@ -15,8 +15,6 @@ The project uses RTOS threads for structured execution and demonstrates embedded
 - Multi-threaded implementation using **CMSIS RTOS**
 - Configured for STM32 microcontrollers
 
-
-
 ## Hardware Requirements
 
 This project requires the following components:
@@ -61,6 +59,6 @@ This project requires the following components:
 - STM32 HAL libraries for GPIO, I2C, UART, and RTOS support
 - Serial monitor software for viewing UART output
 
-##Hardware Requirements: 
--Nucleo32 Click-Shield
--MIKROE Humidity Click board 
+## Hardware Requirements: 
+- Nucleo32 Click-Shield
+- MIKROE Humidity Click board 
