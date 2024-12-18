@@ -15,19 +15,6 @@ The project uses RTOS threads for structured execution and demonstrates embedded
 - Multi-threaded implementation using **CMSIS RTOS**
 - Configured for STM32 microcontrollers
 
-## Hardware Requirements
-
-This project requires the following components:
-- **Microcontroller**: STM32 (eg, STM32L4 family or similar)
-- **Humidity Sensor**: Sensirion SHT21 (or compatible I2C-based sensor)
-- **Connections**:
-   - VCC → 33V  
-   - GND → Ground  
-   - SDA → I2C Data Line (eg, PB7)  
-   - SCL → I2C Clock Line (eg, PB6)
-- **UART Output**:
-   - UART2 for console output (eg, connected to a serial monitor like PuTTY)
-
 
 
 ## How It Works
@@ -61,4 +48,8 @@ This project requires the following components:
 
 ## Hardware Requirements: 
 - Nucleo32 Click-Shield
-- MIKROE Humidity Click board 
+   - VCC → 3.3V  
+   - GND → Ground  
+   - SDA → I2C Data Line  
+   - SCL → I2C Clock Line 
+ - MIKROE Humidity Click board
